@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "DoubleTrouble",
-    "slug": "DoubleTrouble",
+    "name": "Reps on Reps",
+    "slug": "repsonrepsapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,16 +12,23 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.repsonreps.repsonrepsapp",
+      "buildNumber": "4"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b1d4e5cf-6221-4b25-b33b-c193d7307e5f"
+      }
     }
   }
 }
